@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Düş'ün</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4F94CD; /* Türk Mavisi */
+            color: #000;
+        }
+        header {
+            background-color: #fff;
+            color: #000;
+            padding: 30px;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            border-bottom: 2px solid #000;
+        }
+        nav {
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav .dropdown {
+            position: relative;
+        }
+        nav .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            z-index: 1;
+        }
+        nav .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        nav .dropdown-content a {
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            color: #000;
+        }
+        main {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: #ffffffcc;
+        }
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 40px;
+        }
+        .article {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        .article h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .article p {
+            font-size: 16px;
+        }
+        .sidebar {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .sidebar a {
+            display: inline-block;
+            margin: 10px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #e0e0e0;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            border-top: 1px solid #ccc;
+        }
+        .cover-image {
+            display: block;
+            max-width: 100%;
+            margin: 40px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>Türk Düş'ün</header>
+
+    <nav>
+        <div class="dropdown">
+            <a href="#">Amaç & Künye</a>
+            <div class="dropdown-content">
+                <a href="#">Amaç</a>
+                <a href="#">Künye</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Mağaza</a>
+            <div class="dropdown-content">
+                <a href="#">Dergiler</a>
+                <a href="#">Kitaplar</a>
+                <a href="#">Ürünler</a>
+                <a href="#">Abonelik</a>
+            </div>
+        </div>
+        <a href="#">Yazı Gönderimi</a>
+        <a href="#">İletişim</a>
+    </nav>
+
+    <main>
+        <h2>Güncel Sayı: <i>Yeni Dünya'da Türk Olmanın Felsefesi: Tanımlar ve Anlayışlar</i></h2>
+        <img src="https://cdn.discordapp.com/attachments/1226515903262416996/1237140717656700968/dusun_kapak.png?ex=663aa7aa&is=6639562a&hm=f13dd8d6c8cc11cbd7eeb88b538b0d0a734c6646d4b9834cc015bb286cf2d64c&" class="cover-image" alt="Güncel Sayı Kapağı">
+
+        <div class="article">
+            <h3>Efsanenin Koynundaki Hükümdar: Oğuz Kağan</h3>
+            <p>Bu yazı, Oğuz Kağan Destanı'nın kökenlerini ve Türk düşünce dünyasındaki yerini inceliyor.</p>
+        </div>
+        <div class="article">
+            <h3>Türklüğün Fikri Zemini</h3>
+            <p>Türklüğün tarihsel ve düşünsel temelleri üzerine kavramsal bir analiz.</p>
+        </div>
+        <div class="article">
+            <h3>Kitap Tanıtımı: Bahaeddin Ögel, Türk Kültürü'nün Gelişme Çağları</h3>
+            <p>Ögel’in eseri üzerinden Türk kültürünün tarihsel gelişimine kısa bir bakış.</p>
+        </div>
+
+        <div class="sidebar">
+            <a href="#">🎧 Podcast'lere Git</a>
+            <a href="#">▶️ YouTube Kanalı</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Amaç: Genç Türklerin, Dünya'ya ve Türk Dünyası'na dair görüşlerini yansıtan Türk Düş'ünün yeni temsilcilerinin yeni Türk Asrı ufkundaki hedeflerini sunmasını amaçlar. İlhami büyük atalarımızın tarihinden alır.</p>
+        <p>K
